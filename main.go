@@ -1,8 +1,7 @@
 package main
 
-import "fmt"
+import "simon-dc/cmd"
 
 func main() {
-	fmt.Println("========== f16 差分分析 ==========")
-	runDifferentialAnalysis()
+	cmd.Run()
 }
